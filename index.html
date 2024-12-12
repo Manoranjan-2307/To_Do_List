@@ -13,16 +13,24 @@
         <button id="btn1" onclick="add()">Add</button>
     </div>
     
-    <ul id="task_container">
-        
-
-    </ul>
+    <ul id="task_container"></ul>
 
     <textarea id="txt_area" placeholder="Make Changes"></textarea>
     <button id="btn4" onclick="submit_item(event)">submit</button>
 
-
     <script src="script.js"></script>
-    
+    <style>
+        /* Styling input placeholder */
+        input::placeholder {
+            color: black; 
+            opacity: 1; 
+        }
+
+        /* Styling textarea placeholder */
+        textarea::placeholder {
+            color: black; 
+            opacity: 1;
+        }
+    </style>
 </body>
 </html>
